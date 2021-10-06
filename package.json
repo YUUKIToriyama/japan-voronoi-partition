@@ -1,0 +1,28 @@
+{
+	"name": "japan-voronoi-partition",
+	"version": "0.0.1",
+	"description": "都道府県庁所在地のポイント群に対してボロノイ分割の計算を行なってみる",
+	"scripts": {
+		"start": "parcel public/index.html",
+		"build": "parcel build public/index.html",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/YUUKIToriyama/japan-voronoi-partition.git"
+	},
+	"author": "YUUKIToriyama (github@toriyama.dev)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/YUUKIToriyama/japan-voronoi-partition/issues"
+	},
+	"homepage": "https://github.com/YUUKIToriyama/japan-voronoi-partition#readme",
+	"devDependencies": {
+		"parcel-bundler": "^1.12.5",
+		"sass": "^1.42.1",
+		"typescript": "^4.4.3"
+	},
+	"dependencies": {
+		"maplibre-gl": "^2.0.0-pre.1"
+	}
+}

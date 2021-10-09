@@ -23,6 +23,8 @@
 		"typescript": "^4.4.3"
 	},
 	"dependencies": {
+		"@turf/helpers": "^6.5.0",
+		"@turf/voronoi": "^6.5.0",
 		"maplibre-gl": "^2.0.0-pre.1"
 	},
 	"browserslist": {
@@ -34,5 +36,5 @@
 			"last 1 firefox version",
 			"last 1 chrome version"
 		]
-	},
+	}
 }
